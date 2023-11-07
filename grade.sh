@@ -8,6 +8,18 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
+cd student-submission
+
+
+if [[ -f ListExamples.java ]]
+then
+    cp -r ListExamples.java ../grading-area
+    echo 'test'
+else
+    echo 'resubmit with proper file'
+fi
+
+
 
 # Draw a picture/take notes on the directory structure that's set up after
 # getting to this point
