@@ -15,14 +15,14 @@ if [[ -f ListExamples.java ]]
 then
     cp -r ListExamples.java ../grading-area
     cd ..
-    pwd
+    #pwd
 
     cp -r *.java grading-area
     # cp -r *.class /grading-area
 
     cd grading-area
 
-    pwd
+    #pwd
 
     cd .. 
 
